@@ -22,8 +22,11 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private int ballXdir = -1;
     private int ballYdir = -2;
 
+    private  MapGenerator map;
+
 
     public Gameplay(){
+        map = new MapGenerator(3,7);
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -35,6 +38,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         //background
         g.setColor(Color.blue);
         g.fillRect(1,1,692,592);
+
+        //drawing map
+        map.draw((Graphics2D)g);
 
         //borders
         g.setColor(Color.green);
@@ -58,7 +64,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
             if(new Rectangle(ballposX,ballposY, 20,20).intersects(new Rectangle(playerX,550,100,8))){
                 ballYdir = -ballYdir;
             }
-
             ballposX += ballXdir;
             ballposY += ballYdir;
             if (ballposX < 0) {
