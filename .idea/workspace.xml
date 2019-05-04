@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48da7d48-ee3a-46cd-9c79-9f3e452a1ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MapGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gameplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MapGenerator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +19,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Gameplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="392">
+              <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MapGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="389">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -71,8 +71,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Gameplay.java" />
         <option value="$PROJECT_DIR$/src/main/java/MapGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Gameplay.java" />
       </list>
     </option>
   </component>
@@ -84,10 +84,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="1" />
+    <option name="x" value="5" />
     <option name="width" value="980" />
-    <option name="height" value="1042" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,7 +172,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556900805470</updated>
-      <workItem from="1556900809046" duration="8307000" />
+      <workItem from="1556900809046" duration="8655000" />
+      <workItem from="1556982963813" duration="1024000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty frame">
       <created>1556901559251</created>
@@ -238,45 +238,52 @@
       <option name="project" value="LOCAL" />
       <updated>1556907987674</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create bricks">
+      <created>1556909328270</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556909328270</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8307000" />
+    <option name="totallyTimeSpent" value="9679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="1" width="784" height="833" extended-state="0" />
+    <frame x="2" y="0" width="784" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.5138122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4885906" weight="0.32719547" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.6174033" weight="0.33142856" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.51104975" side_tool="true" visible="true" weight="0.3281027" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48895028" visible="true" weight="0.3281027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48657718" visible="true" weight="0.32478634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.6146409" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3853591" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48618785" weight="0.32621083" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,18 +293,12 @@
     <MESSAGE value="Create empty frame" />
     <MESSAGE value="Create background, borders, paddle and the ball" />
     <MESSAGE value="Add functionality to ball and slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add functionality to ball and slider" />
+    <MESSAGE value="Create bricks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create bricks" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -306,20 +307,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Gameplay.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MapGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="389">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Gameplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
